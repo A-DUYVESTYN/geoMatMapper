@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MRD128-Revised</name>
+	<open>1</open>
+	<LookAt>
+		<longitude>-79.5</longitude>
+		<latitude>44</latitude>
+		<altitude>0</altitude>
+		<range>750000</range>
+		<tilt>1.743751201793569e-014</tilt>
+		<heading>1.334503351371925e-014</heading>
+		<altitudeMode>relativeToGround</altitudeMode>
+	</LookAt>
+	
+	<NetworkLink>
+		<name>Logo</name>
+		<Style>
+			<ListStyle>
+				<listItemType>checkHideChildren</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Url>
+			<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/ogsearth2/files/Logo/doc.kml</href>
+		</Url>
+	</NetworkLink>
+	
+	<NetworkLink>
+				<name>Legend</name>
+				<open>1</open>
+				<Snippet maxLines="2"><![CDATA[<a href='http://www.geologyontario.mndm.gov.on.ca/mines/data/google/mrd128/Legend/MRD128_legend.pdf'>View Legend</a>]]></Snippet>
+				
+				<Style>
+					<ListStyle>
+						<listItemType>checkHideChildren</listItemType>
+						<bgColor>00ffffff</bgColor>
+						<maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+				</Style>
+	</NetworkLink>
+	
+	<Folder>
+		<name>Surficial Geology of Southern Ontario</name>
+		<open>1</open>
+		<Snippet maxLines="2"><![CDATA[<b><i>Product Information and GIS Download</b>]]></Snippet>
+		<description><![CDATA[<i>Published 2010<br><br></i><b>1:50 000 Scale Surficial Geology of Southern Ontario</b><br><br><i>
+
+The Surficial Geology of Southern Ontario data set is a GIS based geological map that shows the distribution and characteristics of surficial units across Southern Ontario. The map has recently been revised and updated and replaces the map previously released on MRD 128. This new version now includes surficial geology information for the Bruce Peninsula and as well as NTS sheet 31D\9 covering the Burleigh Falls area. It illustrates surficial deposit types, material types, geological features (e.g. drumlins, eskers) and general bedrock types and outcrops. The surficial geology of southern Ontario consists largely of varying types and thicknesses of deposits emplaced primarily during the Quaternary period. These surficial deposits overly a bedrock terrain consisting mainly of Phanerozoic sedimentary rocks that overlie older Precambrian rocks of the Canadian Shield. The data used in generating the map was derived from Quaternary maps, primarily at a scale of 1:50 000, completed by the OGS and Geological Survey of Canada (GSC) for most of southern Ontario over the past 40 years. A total of 125 maps, 36 of which belong to the GSC, were used to create the seamless coverage. These original, tiled maps existed as either digital vector or raster format. The raster images were rubber sheeted to a geographic base and digitized (head's up) according to standards established for the project. Polygonal, point and line information was captured as part of the automation process. Coverages created include; sgu_poly, sgu_point, sgu_line, sgu_mor, sgu_misc, ogs_pits and sgu_anno. Attribute tables were built and populated with various geological related information. The original maps contained legends of varying detail and terminology, therefore, a single, standard legend suitable for a 1:50 000 compilation was constructed. This legend, created using Microsoft ®Access Database software, was used to translate all original map units to the new standard legend. Each of the map attribute tables was joined to the translation table using a unique key. A series of additional attributes, for instance, primary material and genesis were extracted from each map sheet and included in this table. By capturing these attributes a variety of derivative maps can be produced. For instance, for aggregate resource assessment studies a map of gravel resources can be derived from the primary material attribute.
+<br><br>Ontario Geological Survey 2010. Surficial geology of Southern Ontario; Ontario Geological Survey, Miscellaneous Release--Data 128-REV<br><br>
+ The data are available on 1 CD-ROM. $20.00 or can be downloaded free of charge.<br><br>
+
+<a href='http://www.geologyontario.mndm.gov.on.ca/mndmaccess/mndm_dir.asp?type=pub&id=MRD128-REV'>Download from Geology Ontario</a><br/>Or <br/><a href='http://www.infogo.gov.on.ca/infogo/office.do?actionType=servicedirectory&infoType=service&unitId=7102&locale=en'>Order from OGS Publication Sales</a> 
+]]></description>
+		
+		<NetworkLink>
+				<name>Pits and Quarries</name>
+				<Snippet maxLines="2"><![CDATA[<b><i>"Click"for More Information</b>]]></Snippet>
+				<description><![CDATA[<i>Captures gravel pit and quarry locations.]]></description>
+				<Style>
+					<ListStyle>
+						<listItemType>checkHideChildren</listItemType>
+						<bgColor>00ffffff</bgColor>
+						<maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+				</Style>
+				<Url>
+					<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/mrd128/pits/doc.kml</href>
+				</Url>
+		</NetworkLink>
+
+
+		<NetworkLink>
+				<name>Point Features</name>
+				<Snippet maxLines="2"><![CDATA[<b><i>"Click"for More Information</b>]]></Snippet>
+				<description><![CDATA[<i>Captures oriented point information such as drumlins and striae and other features]]></description>
+				<Style>
+					<ListStyle>
+						<listItemType>checkHideChildren</listItemType>
+						<bgColor>00ffffff</bgColor>
+						<maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+				</Style>
+				<Url>
+					<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/mrd128/points/doc.kml</href>
+				</Url>
+		</NetworkLink>	
+
+
+		<NetworkLink>
+						<name>Linear Features</name>
+						<Snippet maxLines="2"><![CDATA[<b>"Click"for More Information</b>]]></Snippet>
+						<description><![CDATA[<i>Captures linear features such as eskers and bluffs.]]></description>
+						<Style>
+							<ListStyle>
+								<listItemType>checkHideChildren</listItemType>
+								<bgColor>00ffffff</bgColor>
+								<maxSnippetLines>2</maxSnippetLines>
+							</ListStyle>
+						</Style>
+						<Url>
+							<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/mrd128/lines/doc.kml</href>
+						</Url>
+		</NetworkLink>
+		
+		<NetworkLink>
+				<name>Surficial Geology</name>
+				<Snippet maxLines="2"><![CDATA[<b><i>"Click"for More Information</b>]]></Snippet>
+				<description><![CDATA[<i>Surficial geology unit polygons, which classify the earth's surface by the surface or near-surface geological material.]]></description>
+				<Style>
+					<ListStyle>
+						<listItemType>checkHideChildren</listItemType>
+						<bgColor>00ffffff</bgColor>
+						<maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+				</Style>
+				<Url>
+					<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/mrd128/polygons/doc.kml</href>
+				</Url>
+		</NetworkLink>
+		
+		<NetworkLink>		
+					<name>Surficial Geology Raster</name>
+						<visibility>1</visibility>
+							<Style>
+							<ListStyle>
+								<listItemType>checkHideChildren</listItemType>
+								<bgColor>00ffffff</bgColor>
+								<maxSnippetLines>2</maxSnippetLines>
+							</ListStyle>
+							</Style>
+					<Url>
+						<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/mrd128/SurficialGeology/doc.kmz</href>
+					</Url>
+		</NetworkLink>
+			
+	</Folder>
+	</Document>
+</kml>

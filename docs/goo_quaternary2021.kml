@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Quaternary Geology (1:1000000)</name>
+	<open>1</open>
+	<Snippet maxLines="2"><![CDATA[<b><i>Product Information and GIS Download</b>]]></Snippet>
+	<description><![CDATA[<i>Published 2000<br><br></i><b>1:1000000 Scale Quaternary geology, seamless coverage of the Province of Ontario</b><br><br><i>
+	This digital compilation of the Quaternary geology of Ontario is a 2000 re-release of the CAD files released in May 1997 and the paper series of 1:1 000 000 scale maps first released in 1992. The Quaternary Geology Data Set is is a digital interpretation of surficial geology for the Province of Ontario and illustrates the general distribution of the various types of Quaternary sediments and the major landforms associated with them. Tills, glaciofluvial, glaciolacustrine, glaciomarine, fluvial, lacustrine and organic deposits are represented by 30 distinct geological units illustrating the Quaternary stratigraphy of Ontario. Also shown are landform deposits such as drumlins, moraines, eskers, sand dunes, and glacial-related escarpments. Base information, such as latitude and longitude lines, water bodies and townships, is included. Data are available in ArcView® 3.1 format. ArcExplorer® has been provided to view and query the ArcView data. In addition, the original AutoCAD® v.12 DXF and MicroStation® DGN files are provided. Legends, explanatory notes, metadata and details of the ArcView and CAD data sets are provided in Microsoft® Word 97 and RTF file formats. This data set supersedes ERLIS Data Sets 14, 15, 16 and 17.
+	<br><br>Ontario Geological Survey 2000. Quaternary geology, seamless coverage of the Province of Ontario; Ontario Geological Survey, Data Set 14---Revised.<br><br>
+	 The data are available on 1 CD-ROM. $20.00 or can be downloaded free of charge.<br><br>
+	
+	<a href='http://www.geologyontario.mndm.gov.on.ca/mndmaccess/mndm_dir.asp?type=PUB&id=EDS014-REV'>Download from Geology Ontario</a><br/>Or <br/><a href='http://www.infogo.gov.on.ca/infogo/office.do?actionType=servicedirectory&infoType=service&unitId=7102&locale=en'>Order from OGS Publication Sales</a>]]></description>
+	<LookAt>
+		<longitude>-82.17218150000001</longitude>
+		<latitude>47.912601</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>2500000</range>
+	</LookAt>
+	<NetworkLink>
+		<name>Logo</name>
+		<Style>
+			<ListStyle>
+				<listItemType>checkHideChildren</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Url>
+			<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/OgsEarth2/files/Logo/doc.kml</href>
+		</Url>
+	</NetworkLink>
+	<NetworkLink>
+		<name>Legend</name>
+		<open>1</open>
+		<Snippet maxLines="2"><![CDATA[<a href='http://www.geologyontario.mndm.gov.on.ca/mines/data/google/ogsearth/resources/Quaternary/Legend/Legend_GOO_Quat.pdf'>View Legend</a>]]></Snippet>
+		<Style>
+			<ListStyle>
+				<listItemType>checkHideChildren</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+	</NetworkLink>
+	<NetworkLink>
+		<name>Shaded Relief (NASA)**</name>
+		<visibility>0</visibility>
+		<Style>
+			<ListStyle>
+				<listItemType>checkHideChildren</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Url>
+			<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/ogsearth/resources/ShadedRelief/doc.kml</href>
+		</Url>
+	</NetworkLink>
+	<Folder>
+		<name>Data</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<NetworkLink>
+			<name>Surficial Raster</name>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Url>
+				<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/ogsearth/resources/Quaternary/raster/doc.kml</href>
+			</Url>
+		</NetworkLink>
+		<NetworkLink>
+			<name>Surficial Geology</name>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Url>
+				<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/ogsearth/resources/Quaternary/surficial/doc.kml</href>
+			</Url>
+		</NetworkLink>
+		<NetworkLink>
+			<name>Elevation (NASA)**</name>
+			<visibility>0</visibility>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Url>
+				<href>http://www.geologyontario.mndm.gov.on.ca/mines/data/google/ogsearth/resources/Elevation/doc.kml</href>
+			</Url>
+		</NetworkLink>
+		<Folder>
+			<name>Off</name>
+			<visibility>0</visibility>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>Credits</name>
+		<visibility>0</visibility>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[**<i>Elevation</i> and <i>Shaded Relief</i> were created using the Shuttle Radar Topography Mission (SRTM) data courtesy of the National Aeronautics and Space Administration (NASA).<br /><br />
+Thank you, NASA for making useful information available to everyone!]]></description>
+		<Style>
+			<ListStyle>
+				<listItemType>checkHideChildren</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+	</Folder>
+</Folder>
+</kml>
